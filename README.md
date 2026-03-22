@@ -244,22 +244,36 @@ UI改善：
 
 10. 技術スタック
 10-1. 使用予定
-・フレームワーク：Ruby on Rails
-・DB：PostgreSQL
+・フレームワーク：Ruby on Rails 7.2
+・言語：Ruby 3.3
+・DB：PostgreSQL 16
 ・デプロイ：Render / Fly.io
-・ライブラリ：Geocoder など
+・認証：Sorcery 0.18
+・位置情報：Geocoder 1.x
+・画像アップロード：Active Storage(Rails 7.2標準機能)
 
 10-2. 技術選定理由
-Ruby on Rails を選んだ理由：
+Ruby on Rails 7.2 を選んだ理由：
 ・RUNTEQのカリキュラムで学習中の技術であり、理解が深い
 ・MVPの開発に必要な機能が揃っている
 ・困ったときに調べられる日本語記事が豊富
 
-PostgreSQL を選んだ理由：
+PostgreSQL 16 を選んだ理由：
 ・Railsとの相性が良く、標準的に使われている
-・位置情報を扱う際の拡張機能（PostGIS）も利用可能
+・位置情報を扱う際の拡張機能(PostGIS)も利用可能
+・Render / Fly.io でのデプロイがスムーズ
 
-Geocoder を選んだ理由：
+Sorcery 0.18 を選んだ理由：
+・RUNTEQのカリキュラムで学習済みの技術であり、理解が深い
+・シンプルで柔軟性が高く、必要な機能を追加しやすい
+・実務でも使われており、ポートフォリオとしても評価されやすい
+
+Geocoder 1.x を選んだ理由：
 ・位置情報の取得・変換が簡単にできる
 ・Railsとの統合がスムーズ
 ・日本語の記事や事例が多い
+
+Active Storage を選んだ理由：
+・Railsに標準で組み込まれており、追加のgemが不要
+・画像のアップロード・表示が簡単に実装できる
+・クラウドストレージ(AWS S3など)との連携も可能
