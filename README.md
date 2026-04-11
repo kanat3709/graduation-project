@@ -277,3 +277,6 @@ Active Storage を選んだ理由：
 
 ◾画面遷移図
 Figma：https://www.figma.com/design/jfipLkHKVsPCYKw2ihLxV1/%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3%E4%BD%9C%E6%88%90%E3%83%AF%E3%83%BC%E3%82%AF--%E3%82%84%E3%81%8B%E3%81%A3%E3%81%B4-?node-id=2002-239&t=bgQLnFNqVQkBw5n6-1
+
+◾ER図
+drawio：https://drive.google.com/file/d/1Y78bIEoBtQrP__IZjJckNvAs51A8REG_/view?usp=sharing
